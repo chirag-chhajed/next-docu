@@ -1,0 +1,13 @@
+{
+  "name": "next-docu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "next-app": "pnpm --filter=next-app",
+    "docu-app": "pnpm --filter=docu-app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
