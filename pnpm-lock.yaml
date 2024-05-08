@@ -6,7 +6,11 @@ settings:
 
 importers:
 
-  .: {}
+  .:
+    dependencies:
+      fs-extra:
+        specifier: ^11.2.0
+        version: 11.2.0
 
   apps/docu-app:
     dependencies:
